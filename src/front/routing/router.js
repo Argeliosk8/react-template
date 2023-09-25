@@ -1,9 +1,9 @@
 import React from 'react';
 import {createBrowserRouter, createRoutesFromElements, Route} from "react-router-dom";
 import Root from './root';
-import { Main } from '../../pages/main.jsx';
-import { About } from '../../pages/about.jsx';
-import { Dashboard } from '../../pages/dashboard';
+import { Main } from '../pages/main.jsx';
+import { About } from '../pages/about.jsx';
+import { Dashboard } from '../pages/dashboard';
 
 const router = createBrowserRouter(
   createRoutesFromElements(

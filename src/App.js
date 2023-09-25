@@ -1,6 +1,6 @@
 
 import './App.css';
-import router from './front/routing/router/router';
+import router from './front/routing/router';
 import {RouterProvider} from "react-router-dom";
 import { ContextWrapper } from './front/context/ContextWrapper';
 import { useContext } from 'react';
